@@ -9,10 +9,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
-LinkageDriver = "LinkageDriver"
+from .Driver import Driver
 
 class PlotAnimator:
-    def __init__(self, driver: LinkageDriver, frames=None):
+    def __init__(self, driver: Driver, frames=None):
         self.driver = driver
         self.frames = frames
 
