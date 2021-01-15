@@ -13,9 +13,9 @@ Option 1: Use a virtual environment
 
 Other Options. 
 
-1. Don't use a virtual environment - run `pip install -r requirements.txt` globally
-1. Manually install the necessary packages on your global python installation (`numpy`, `matplotlib`, etc.)
-1. Download a python distribution that already has the necessary requirements.
+* Don't use a virtual environment - run `pip install -r requirements.txt` globally
+* Manually install the necessary packages on your global python installation (`numpy`, `matplotlib`, etc.)
+* Download a python distribution that already has the necessary requirements.
     *  Example: https://github.com/microsoft/coding-pack-for-python
 
 ## Running
