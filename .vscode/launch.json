@@ -5,22 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: LinkageSim",
+            "name": "Python: MainModule",
             "type": "python",
             "request": "launch",
             "module": "linkage-simulator"
-        },
-        {
-            "name": "Python: ConstraintControllerTest",
-            "type": "python",
-            "request": "launch",
-            "module": "linkage-simulator.controller.ConstraintController"
-        },
-        {
-            "name": "Python: LinkageNetworkTest",
-            "type": "python",
-            "request": "launch",
-            "module": "linkage-simulator.model.LinkageNetwork"
         }
     ]
 }

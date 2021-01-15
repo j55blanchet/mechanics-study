@@ -8,6 +8,7 @@ class Driver:
     def __init__(self, controller: Controller) -> None:
         self.controller = controller
         self.artists_controller = None
+
         self.pframe = 0
 
     def get_plot_size(self) -> Tuple[float, float, float, float]:
